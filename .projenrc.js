@@ -22,7 +22,7 @@ const project = new AwsCdkConstructLibrary({
     distName: 'platform-secure-bucket',
     module: 'platform-secure-bucket',
   },
-  npmRegistryUrl: 'https://clubcloud-domain-<DOMAIN_ACCOUNT_ID>.d.codeartifact.<REGION>.amazonaws.com/npm/clubcloud-npm-platform-constructs/',
+  npmRegistryUrl: 'https://clubcloud-domain-290794210101.d.codeartifact.eu-west-1.amazonaws.com/npm/clubcloud-npm-platform-constructs/',
   // GitHub configuration
   buildWorkflow: false,
   dependabot: false,

@@ -80,7 +80,7 @@ jobs:
         run: npx -p jsii-release@latest jsii-release-npm
         env:
           NPM_DIST_TAG: latest
-          NPM_REGISTRY: clubcloud-domain-%3CDOMAIN_ACCOUNT_ID%3E.d.codeartifact.%3CREGION%3E.amazonaws.com/npm/clubcloud-npm-platform-constructs/
+          NPM_REGISTRY: clubcloud-domain-290794210101.d.codeartifact.eu-west-1.amazonaws.com/npm/clubcloud-npm-platform-constructs/
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     container:
       image: jsii/superchain:1-buster-slim-node14
